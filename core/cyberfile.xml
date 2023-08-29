@@ -18,8 +18,10 @@
 
   <!-- dreamview && monitor -->
   <depend repo_name="dreamview" type="binary">dreamview</depend>
+  <depend repo_name="dreamview-plus" type="binary">dreamview-plus</depend>
+  <depend repo_name="studio-connector" type="binary">studio-connector</depend>
   <depend repo_name="monitor" type="binary">monitor</depend>
-  
+
   <!-- perception -->
   <depend repo_name="perception-camera-detection-2d" type="binary">perception-camera-detection-2d</depend>
   <depend repo_name="perception-camera-detection-3d" type="binary">perception-camera-detection-3d</depend>
