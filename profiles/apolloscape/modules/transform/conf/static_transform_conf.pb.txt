@@ -1,0 +1,14 @@
+extrinsic_file {
+    frame_id: "novatel"
+    child_frame_id: "velodyne64"
+    file_path: "/apollo/modules/perception/data/params/velodyne64_novatel_extrinsics.yaml"
+    enable: true
+}
+
+extrinsic_file {
+    frame_id: "novatel"
+    child_frame_id: "localization"
+    file_path: "/apollo/modules/perception/data/params/novatel_localization_extrinsics.yaml"
+    enable: true
+}
+
