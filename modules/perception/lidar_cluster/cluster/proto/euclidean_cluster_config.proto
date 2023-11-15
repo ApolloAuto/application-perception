@@ -1,0 +1,11 @@
+syntax = "proto2";
+
+package apollo.perception.lidar;
+
+message EuclideanClusterConfig {
+  optional float cluster_distance = 1;
+  optional int32 min_cluster_size = 2;
+  optional int32 max_cluster_size = 3;
+  optional uint32 min_point_number = 4;
+  optional float valid_distance = 5;
+};

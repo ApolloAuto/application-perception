@@ -1,0 +1,5 @@
+cluster_distance: 0.5
+min_cluster_size: 3
+max_cluster_size: 1000
+min_point_number: 3
+valid_distance: 40.0  # need to be larger than 20.0
