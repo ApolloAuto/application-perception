@@ -1,0 +1,7 @@
+name: "lidar-cluster"
+output_channel_name: "/perception/lidar/cluster"
+plugin_param {
+  name: "EuclideanCluster"
+  config_path: "perception/lidar_cluster/data"
+  config_file: "euclidean_cluster.pb.txt"
+}

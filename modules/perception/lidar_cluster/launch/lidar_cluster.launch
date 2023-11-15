@@ -1,0 +1,7 @@
+<cyber>
+  <module>
+    <name>lidar_cluster_component</name>
+    <dag_conf>modules/perception/lidar_cluster/dag/lidar_cluster_component.dag</dag_conf>
+    <process_name>lidar_cluster_component</process_name>
+  </module>
+</cyber>
