@@ -37,7 +37,7 @@
   <depend repo_name="perception-msg-adapter" type="binary">perception-msg-adapter</depend>
   <depend repo_name="perception-multi-sensor-fusion" type="binary">perception-multi-sensor-fusion</depend>
   <depend repo_name="perception-pointcloud-ground-detection" type="binary">perception-pointcloud-ground-detection</depend>
-  <depend repo_name="perception-pointcloud-map_based_roi" type="binary">perception-pointcloud-map-based-roi</depend>
+  <depend repo_name="perception-pointcloud-map-based-roi" type="binary">perception-pointcloud-map-based-roi</depend>
   <depend repo_name="perception-pointcloud-preprocess" type="binary">perception-pointcloud-preprocess</depend>
   <depend repo_name="perception-radar-detection" type="binary">perception-radar-detection</depend>
   <depend repo_name="perception-tools" type="binary">perception-tools</depend>
