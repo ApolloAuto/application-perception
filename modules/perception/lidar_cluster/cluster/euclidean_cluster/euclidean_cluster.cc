@@ -106,6 +106,7 @@ bool EuclideanCluster::Cluster(const ObjectClusterOptions& options,
     base::Object object;
     object.confidence = 1.0;
     object.lidar_supplement.is_in_roi = true;
+    object.lidar_supplement.is_background = true;
     object.lidar_supplement.num_points_in_roi = cluster.indices.size();
     object.lidar_supplement.cloud.CopyPointCloud(*frame->cloud, point_idx);
     object.lidar_supplement.cloud_world.CopyPointCloud(*frame->world_cloud,

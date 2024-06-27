@@ -54,7 +54,7 @@ bool LidarClusterComponent::Init() {
 
 bool LidarClusterComponent::Proc(
     const std::shared_ptr<LidarFrameMessage>& in_message) {
-  PERF_FUNCION()
+  PERF_FUNCTION()
   if (in_message == nullptr) {
     AERROR << "LidarClusterComponent, in_message is null.";
     return false;
